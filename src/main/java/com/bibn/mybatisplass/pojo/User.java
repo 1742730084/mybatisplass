@@ -28,4 +28,5 @@ public class User {
     private String email;
     @TableField(exist = false)
     private String address;//该字段在数据库中不存在
+
 }
