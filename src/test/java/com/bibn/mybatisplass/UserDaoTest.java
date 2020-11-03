@@ -197,4 +197,9 @@ public class UserDaoTest {
         List<User> users = dao.selectByMap(map);
         sys(users);
     }
+
+    public static void main(String[] args) {
+        System.out.println(123);
+        System.out.println(159);
+    }
 }
